@@ -1,0 +1,95 @@
+12/26 06:53:32 PM | 
+12/26 06:53:32 PM | Parameters:
+12/26 06:53:32 PM | ARCH=resnet_56
+12/26 06:53:32 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/26 06:53:32 PM | DATA_DIR=./data
+12/26 06:53:32 PM | DATASET=cifar10
+12/26 06:53:32 PM | EPOCHS=15
+12/26 06:53:32 PM | EVAL_BATCH_SIZE=100
+12/26 06:53:32 PM | GPU=0
+12/26 06:53:32 PM | JOB_DIR=./result/resnet_56/cifar10
+12/26 06:53:32 PM | LR=0.01
+12/26 06:53:32 PM | LR_DECAY_STEP=5,10
+12/26 06:53:32 PM | RESUME=/home/lsw/LSW/2023/HRank-master/pretrained_models/resnet_56.pt\
+12/26 06:53:32 PM | RESUME_MASK=None
+12/26 06:53:32 PM | START_COV=0
+12/26 06:53:32 PM | TRAIN_BATCH_SIZE=128
+12/26 06:53:32 PM | 
+12/26 06:53:32 PM | ==> Preparing data..
+12/26 06:53:33 PM | ==> Building model..
+12/26 06:53:35 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/26 06:53:35 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/26 06:54:11 PM | 
+12/26 06:54:11 PM | Parameters:
+12/26 06:54:11 PM | ARCH=resnet_56
+12/26 06:54:11 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/26 06:54:11 PM | DATA_DIR=./data
+12/26 06:54:11 PM | DATASET=cifar10
+12/26 06:54:11 PM | EPOCHS=15
+12/26 06:54:11 PM | EVAL_BATCH_SIZE=100
+12/26 06:54:11 PM | GPU=0
+12/26 06:54:11 PM | JOB_DIR=./result/resnet_56/cifar10
+12/26 06:54:11 PM | LR=0.01
+12/26 06:54:11 PM | LR_DECAY_STEP=5,10
+12/26 06:54:11 PM | RESUME=/home/lsw/LSW/2023/HRank-master/pretrained_models/resnet_56.pt
+12/26 06:54:11 PM | RESUME_MASK=None
+12/26 06:54:11 PM | START_COV=0
+12/26 06:54:11 PM | TRAIN_BATCH_SIZE=128
+12/26 06:54:11 PM | 
+12/26 06:54:11 PM | ==> Preparing data..
+12/26 06:54:13 PM | ==> Building model..
+12/26 06:54:14 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/26 06:54:14 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/26 06:54:14 PM | 
+Epoch: 0
+12/26 06:54:25 PM | 
+12/26 06:54:25 PM | Parameters:
+12/26 06:54:25 PM | ARCH=resnet_56
+12/26 06:54:25 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/26 06:54:25 PM | DATA_DIR=./data
+12/26 06:54:25 PM | DATASET=cifar10
+12/26 06:54:25 PM | EPOCHS=15
+12/26 06:54:25 PM | EVAL_BATCH_SIZE=100
+12/26 06:54:25 PM | GPU=0
+12/26 06:54:25 PM | JOB_DIR=./result/resnet_56/cifar10
+12/26 06:54:25 PM | LR=0.01
+12/26 06:54:25 PM | LR_DECAY_STEP=5,10
+12/26 06:54:25 PM | RESUME=/home/lsw/LSW/2023/HRank-master/pretrained_models/resnet_56.pt
+12/26 06:54:25 PM | RESUME_MASK=None
+12/26 06:54:25 PM | START_COV=0
+12/26 06:54:25 PM | TRAIN_BATCH_SIZE=128
+12/26 06:54:25 PM | 
+12/26 06:54:25 PM | ==> Preparing data..
+12/26 06:54:26 PM | ==> Building model..
+12/26 06:54:27 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/26 06:54:27 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/26 06:54:27 PM | 
+Epoch: 0
+12/26 07:07:57 PM | 
+12/26 07:07:57 PM | Parameters:
+12/26 07:07:57 PM | ARCH=resnet_56
+12/26 07:07:57 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/26 07:07:57 PM | DATA_DIR=./data
+12/26 07:07:57 PM | DATASET=cifar10
+12/26 07:07:57 PM | EPOCHS=15
+12/26 07:07:57 PM | EVAL_BATCH_SIZE=100
+12/26 07:07:57 PM | GPU=0
+12/26 07:07:57 PM | JOB_DIR=./result/resnet_56/cifar10
+12/26 07:07:57 PM | LR=0.01
+12/26 07:07:57 PM | LR_DECAY_STEP=5,10
+12/26 07:07:57 PM | RESUME=/home/lsw/LSW/2023/HRank-master/pretrained_models/resnet_56.pt
+12/26 07:07:57 PM | RESUME_MASK=None
+12/26 07:07:57 PM | START_COV=0
+12/26 07:07:57 PM | TRAIN_BATCH_SIZE=128
+12/26 07:07:57 PM | 
+12/26 07:07:57 PM | ==> Preparing data..
+12/26 07:07:58 PM | ==> Building model..
+12/26 07:07:59 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/26 07:07:59 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/26 07:07:59 PM | 
+Epoch: 0
+12/26 07:08:16 PM | Epoch[0](99/100): Prec@1(1,5) 91.95, 0.26
+12/26 07:08:16 PM | Saving to resnet_56_cov1.pt
+12/26 07:08:16 PM | =>Best accuracy 91.950
+12/26 07:08:16 PM | 
+Epoch: 1
